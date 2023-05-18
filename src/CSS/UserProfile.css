@@ -1,0 +1,34 @@
+.user-profile-card{
+    padding:6rem;
+    margin: 6rem;
+  }
+  
+  .avatar-img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:5px solid black;
+    margin-top: -12rem;
+  }
+
+.edit-profile-card{
+  padding:5rem;
+  margin: 6rem;
+
+}
+  @media  screen and (max-width:650px) {
+    
+    .user-profile-card{
+      padding: 2rem;
+    }
+    .avatar-img{
+      margin-top:-6rem;
+    }
+  }
+
+  @media screen and  (max-width:650px){
+   .edit-profile-card{
+    padding: 2rem;
+   }
+  }

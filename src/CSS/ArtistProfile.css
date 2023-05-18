@@ -1,0 +1,89 @@
+.artist-recent-profile-top{
+    width: 10rem;
+    border-radius: 8px;
+    margin-right: 1.5rem;
+    
+}
+.cover{
+  float: left;
+    width:  10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.artist-profile-recent-created {
+    position: relative;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 80px;
+    max-width: 480px;
+    max-height: 290px;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  .artist-profile-recent-created * {
+    box-sizing: border-box;
+  }
+  
+  .artist-profile-recent-created img {
+    position: relative;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;
+    
+  }
+  
+  .artist-profile-recent-created div {
+    position: absolute;
+    top: 0;
+    left: -120px;
+    width: 120px;
+    height: 100%;
+    padding: 8px 4px;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .artist-profile-recent-created div a {
+    display: block;
+    line-height: 2;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    padding: 5px 15px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .artist-profile-recent-created div a:hover {
+    text-decoration: underline;
+  }
+  
+  .artist-profile-recent-created:hover img {
+    opacity: 0.5;
+    right: -120px;
+  }
+  
+  .artist-profile-recent-created:hover div {
+    left: 0;
+    opacity: 1;
+  }
+  .artist-song-name{
+    font-weight: 1000;
+    margin-left: 0.5rem;
+    font-size: large;
+  }
+  .artist-singer-name{
+    margin-left: 0.5rem;
+    color: gray;
+  }
